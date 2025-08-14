@@ -154,7 +154,7 @@ function main()
     end)
 
     while true do
-        wait(2)
+        wait(10000)
         if isModExpired() then
             sampAddChatMessage("Este mod expirou em ".. 
                 string.format("%02d/%02d/%04d às %02d:%02d", 
